@@ -1,0 +1,75 @@
+{
+  "movies": [
+    {
+      "title": "Battle Royale",
+      "link": "https://www.imdb.com/title/tt1392170/?ref_=ttls_li_tt"
+    },
+    {
+      "title": "The Condemned",
+      "link": "https://www.imdb.com/title/tt0443473/?ref_=ttls_li_tt"
+    },
+    {
+      "title": "The Tournament",
+      "link": "https://www.imdb.com/title/tt0471041/?ref_=ttls_li_tt"
+    },
+    {
+      "title": "The Running Man",
+      "link": "https://www.imdb.com/title/tt0093894/?ref_=ttls_li_tt"
+    },
+    {
+      "title": "Freerunner",
+      "link": "https://www.imdb.com/title/tt1579232/?ref_=ttls_li_tt"
+    },
+    {
+      "title": "Naked Weapon",
+      "link": "https://www.imdb.com/title/tt0341495/?ref_=ttls_li_tt"
+    },
+    {
+      "title": "The Hunger Games",
+      "link": ""
+    },
+    {
+      "title": "Mafiya: Igra na vyzhivanie",
+      "link": "https://www.imdb.com/title/tt4471388/?ref_=ttls_li_tt"
+    }
+  ],
+  "games": [
+    {
+      "titles": [
+        "H1Z1",
+        "Hunt: Showdown",
+        "Fortnite",
+        "Playerunknown's Battlegrounds"
+      ]
+    }
+  ],
+  "wiki": [
+    {
+      "intro": [
+        "Battle Royale Game",
+        "A battle royale game, also spelled battle royal, is a video game genre that blends the survival, exploration and scavenging elements of a survival game with last-man-standing gameplay. Battle royale games challenge a large number of players, starting with minimal equipment, to search for weapons and armor and eliminate all other opponents while avoiding being trapped outside of a shrinking \"safe area\", with the winner being the last competitor in the game. The name for the genre is taken from the 2000 Japanese film Battle Royale, which presents a similar theme of a last-man-standing competition in a shrinking play zone.",
+        "The genre's origins arose from mods for large-scale online survival games like Minecraft and ARMA 2, before becoming popularized with standalone games such as PlayerUnknown's Battlegrounds, which had sold over 50 million copies by June 2018. The same year, the free-to-play Fortnite Battle Royale rapidly became a cultural phenomenon, overtaking Battlegrounds in terms of player numbers and revenue."
+      ],
+      "concept": [
+        "Concept",
+        "Battle royale games are played between a large number of individual players, or a number of small squads (typically up to four or five players). In each match, the goal is to be the last player or team standing by eliminating all other opponents. A match starts by placing the player-characters into a large map space, typically by having all players skydive from a large aircraft within a brief time limit. The map may have random distribution or allow players to have some control of where they start. All players start with minimal equipment, giving no player an implicit advantage at the onset. Equipment, usually used for combat, survival or transport is randomly scattered around the map, often at landmarks on the map, such as within buildings in ghost towns. Players need to search the map for these items while avoid being killed by other players, who cannot be visually marked or distinguishable either on-screen or on the map, requiring the player to solely use his/her own eyes and ears to deduce their positions. Equipment from eliminated players can usually be looted as well. These games often include some mechanic to push opponents closer together as the game progresses, usually taking the form of a gradually shrinking safe zone (players outside of the zone are slowly damaged or killed). Typically, battle royale contestants are only given one life to play; any players who die are not allowed to respawn. Games with team support may allow players to enter a temporary, near-death state once health is depleted, giving allies the opportunity to revive them before they give out or are finished off by an opponent. The match is over when only one player or team remains, and the game typically provides some type of reward (like in-game currency used for cosmetic items) to all players based on how long they survived. ",
+        "The random nature of starting point, item placement, and safe area reduction lends the battle royale genre to challenge players to think and react quickly and improve strategies throughout the match as to be the last man/team standing. ",
+        "In addition to standalone games, the battle royale concept may also be present as part of one of many game modes within a larger game, or may be applied as a user-created mod created for another game.",
+        "There are various modifications that can be implemented atop the fundamentals of the battle royale. For example, Fortnite introduced a temporary mode in an event which is 50-versus-50 player mode in its Fortnite Battle Royale free-to-play game; players are assigned one of the two teams, and work with their teammates to collect resources and weapons towards constructing fortifications as the safe area of the game shrinks down, with the goal to eliminate all the players on the other team."
+      ],
+      "history": [
+        "History",
+        "Early games (2012-2016)",
+        "Formulative elements of the battle royale genre had existed before 2012. Gameplay modes featuring last man standing rules has been a frequent staple of multiplayer online action games though generally with fewer total players as early as 1990's Bomberman which introduced multiplayer game modes, with players, all starting with the same minimal abilities, collected powerups and fought until the last players was left standing. The elements of scavenging and surviving on a large open-world map were popularized through survival games.",
+        "Shortly after the release of the film The Hunger Games in 2012, a server plug-in named Hunger Games (later changed to Survival Games) was developed for Minecraft. Survival Games takes inspiration from the film, initially placing players at the center of the map near a set of equipment chests. When the game commences, players can compete over the central resources or spread out to find items stored in chests scattered around the play area. Players killed are eliminated and the last surviving player wins the match.",
+        "In DayZ, a mod for ARMA 2, players struggle alongside or against each other to obtain basic necessities to continue living in a persistent sandbox filled with various dangers. These games were designed to include player versus player encounters, but generally these events were infrequent due to the size of the game's map and the persistence of the game world. This led to the development of game mods that sacrificed ARMA 2/DayZ open-endedness in favor of focusing on more frequent hostile interactions between players to determine an eventual winner. "
+      ],
+      "impact": [
+        "Impact",
+        "The rapid growth and success of the battle royale genre has been attributed to several factors, including the way all players start in the same vulnerable state and eliminating any intrinsic advantage for players, and being well-suited for being a spectator eSport. Other factors including specific games' business models, such as Fortnite Battle Royale being free and available across computers, consoles, and mobile devices. A University of Utah professor also considers that battle royale games realize elements of Maslow's Hierarchy of Needs, a scheme to describe human motivation, more-so than video games have in the past. While the lowest tiers of Maslow's hierarchy, physiological and safety, are met by the survival elements of battle royales, the love/belonging and esteem tiers are a result of the battle royale being necessarily a social and competitive game, and the final tier of self-actualization comes from becoming skilled in the game to win frequently.",
+        "Business Insider projected that battle royale games will bring in over US$2 billion during 2018, and will grow to US$20 billion in 2019.",
+        "Turtle Beach Corporation, a manufacturer of headphones and microphones for gaming, reported an increase of over 200% in net revenues for the second quarter of 2018 over the same quarter in 2017, which they attributed to the popularity of the battle royale genre."
+      ]
+    }
+  ]
+}

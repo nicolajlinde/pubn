@@ -1,0 +1,17 @@
+{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "name": "Published News",
+  "headline": "Published News - Battle Royale Games",
+  "about": "Mash-up of multiple API's bringing the lastest and related news of Battle Royale Games",
+  "creator": "Joel Nicolaj Pedersen",
+  "keywords": "Mash-up, Battle Royale, Fortnite, PUBG, Multiplayer games",
+  "author": {
+    "@type": "Person",
+    "name": "Joel Nicolaj Pedersen"
+  },
+  "audience": {
+    "@type": "Audience",
+    "name": "Battle Royale aficionados"
+  }
+}

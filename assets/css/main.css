@@ -1,0 +1,685 @@
+/*
+==========================================================================
+Author's custom styles
+========================================================================== */
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+0.0 - General
+1.0 - Navigation
+2.0 - Footer
+
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+>>> General information
+----------------------------------------------------------------
+    Font            -   Open sans
+    Color           -   #f2a900
+--------------------------------------------------------------*/
+
+/* ==========================================================================
+   0.0 - General
+   ========================================================================== */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1em;
+    /*line-height: 1.4;*/
+    font-family: 'Muli', sans-serif;
+    overflow-y: scroll;
+}
+
+body {
+    /*background: #000;*/
+}
+
+img {
+    max-width: 100%;
+    margin: 0;
+}
+
+/*.some-kind-of-wrapper {*/
+/*!* Sticky footer / calculating 100% height and subtracts 40 pixels which is the same height as the footer *!*/
+/*min-height: calc(100vh - 100px - 5px);*/
+/*}*/
+
+section {
+    width: 100%;
+    padding: 15px;
+    z-index: 1;
+    float: left;
+}
+
+.content-wrapper {
+    margin: auto;
+    width: 1200px;
+}
+
+/* ==========================================================================
+   0.1 - Sections
+   ========================================================================== */
+
+section.first-section {
+    background: url('../img/backgrounds/first-section(1).jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+section.second-section {
+    color: #fff;
+    border-top: #D969D7 solid 12px;
+    background: url('../img/backgrounds/first-section(2).jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+section.third-section {
+    background: #1F1F1F;
+    color: #fff;
+    border-top: #111111 solid 12px;
+}
+
+section.fourth-section {
+    background: #1F1F1F;
+    color: #fff;
+    border-top: #111111 solid 12px;
+}
+
+/* ==========================================================================
+   0.2 - Tabs
+   ========================================================================== */
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border-top: #f2a900 solid 5px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    width: 33.3%;
+    color: #fff;
+    background: rgba(0, 0, 0, .4);
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #f2a900;
+    font-weight: bold;
+    color: #000;
+}
+
+/* Style the tab content */
+.tabcontent {
+    padding-top: 2px;
+    display: none;
+    border-top: none;
+    background: rgba(0, 0, 0, .4);
+}
+
+/* ==========================================================================
+   0.2 - Secondary Tabs
+   ========================================================================== */
+
+
+/* ==========================================================================
+   0.3 - Responsive Web Design (RWD)
+   ========================================================================== */
+
+/* ==========================================================================
+   1.0 - Navigation
+   ========================================================================== */
+
+.nav-border {
+    position: absolute;
+    width: 100%;
+    border-bottom: 3px solid #f2a900;
+    box-shadow: 2px 0 8px #f2a900;
+    z-index: 1;
+}
+
+#nav {
+    width: 100%;
+    height: 65px;
+    font-family: 'Open Sans', sans-serif;
+    background: url("../img/textures/texture.jpg");
+    background-repeat: repeat;
+    z-index: 2;
+}
+
+.nav-container {
+    width: 1200px;
+    margin: auto;
+    order: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    align-content: stretch;
+    height: 65px;
+    z-index: 999;
+
+}
+
+.nav-logo {
+    align-self: center;
+    height: 65px;
+    order: 1;
+    padding: 0 25px 0 25px;
+    border-left: 2px solid #f2a900;
+    border-right: 2px solid #f2a900;
+    background: url("../img/logo/logo-background.jpg");
+}
+
+.nav-logo > a > img {
+    height: 50px;
+    margin-top: 8px;
+    opacity: .9;
+}
+
+.nav-content {
+    order: 2;
+    flex: 0 1 auto;
+    align-self: center;
+    flex-shrink: 1;
+    padding-right: 15px;
+}
+
+.nav-content > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+
+.nav-content > ul > li {
+    padding: 5px 15px 5px 15px;
+    border-right: #4B4B4B 2px solid;
+}
+
+/*.nav-content > ul > li > a:first-child {*/
+/*color: #f2a900;*/
+/*}*/
+
+.nav-content > ul > li:last-child {
+    margin-right: 0;
+    border-right: none;
+}
+
+.nav-content > ul > li > a {
+    font-family: 'Muli', sans-serif;
+    padding: 15px;
+    color: #B2B2B2;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.nav-search {
+    order: 1;
+}
+
+/* ==========================================================================
+   2.0 - Footer
+   ========================================================================== */
+
+.footer {
+    width: 100%;
+    height: 40px;
+    background: #303030;
+    text-align: center;
+    display: inline-block;
+    z-index: 1;
+}
+
+.footer > small {
+    color: #fff;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+/* ==========================================================================
+   3.0 - Wiki
+   ========================================================================== */
+
+.wiki {
+    height: 100%;
+    position: relative;
+    float: left;
+    font-size: 0.8em !important;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.wiki > tbody {
+    display: inline;
+    float: left;
+    max-width: 24%;
+    background: rgba(0, 0, 0, .4);
+    padding: 15px 20px 15px 20px;
+    margin: 6px;
+}
+
+.wiki img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.wiki a {
+    color: #fff;
+}
+
+.wiki ul {
+    padding-left: 10px;
+}
+
+.wiki th.fn {
+    display: none;
+}
+
+.wiki-container {
+    margin-top: 50px;
+}
+
+/* ==========================================================================
+   4.0 - YouTube
+   ========================================================================== */
+
+.media-content {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+
+.youtube-content {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+    /* Flex */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.youtube-content > li {
+    flex: 1 1 32.6666%;
+    margin: 2px;
+    line-height: 0;
+}
+
+.youtube-video-items {
+    width: 100%;
+    border: none;
+}
+
+/* ==========================================================================
+   5.0 - The New York Times
+   ========================================================================== */
+
+.nyt {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    list-style-type: none;
+    padding: 0 0 0 0;
+    color: #fff;
+
+    /* Flex */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.nyt-items {
+    flex: 1 1 24.5%;
+    margin: 2px 2px 2px 2px;
+}
+
+.nyt_thumb {
+    height: 200px;
+    width: 100%;
+}
+
+.nyt-headline {
+    margin: 2px 2px 5px 2px;
+    text-transform: uppercase;
+}
+
+.nyt-headline-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nyt-headline-link:hover {
+    color: #f2a900;
+}
+
+.nyt-pub-date {
+
+}
+
+/* ==========================================================================
+   6.0 - Twitch
+   ========================================================================== */
+
+.twitch {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    color: #fff;
+
+    /* Flex */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.twitch-items {
+    flex: 1 1 48.5% !important;
+    margin: 2px 2px 2px 2px;
+}
+
+.twitch-img {
+    width: 100%;
+}
+
+.twitch-meta-container {
+    display: inline-block;
+    max-width: 100%;
+    padding-top: 5px;
+}
+
+.twitch-meta {
+    width: 82%;
+    padding-left: 10px;
+    padding-top: 5px;
+    float: left;
+}
+
+.twitch-meta a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.twitch-meta a:hover {
+    text-decoration: underline;
+    color: #f2a900;
+}
+
+.twitch-user-logo {
+    width: 13%;
+    height: 100%;
+    float: left;
+}
+
+.twitch-user-logo img {
+    max-width: 100%;
+    padding: 5px;
+    text-align: center;
+    vertical-align: center;
+}
+
+/* ==========================================================================
+   7.0 - Twitter
+   ========================================================================== */
+
+.twitter-container {
+    width: 100%;
+}
+
+.twitter-container > h2 {
+    text-shadow: 0 0 10px #000000;
+    font-family: 'Chewy', cursive;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.twitter-items {
+    background: #fff;
+    color: #14171a;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+.twitter-name {
+    color: #14171a;
+    font-weight: 700;
+}
+
+
+.twitter-table {
+    color: #14171a;
+    border-collapse: collapse;
+}
+
+.twitter-row {
+    background: #fff;
+    border: none;
+    padding: 15px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.table-col {
+
+}
+
+.table-col > p {
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.twitter-col-img {
+    width: 65px;
+}
+
+.twitter-img {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+/* ==========================================================================
+   8.0 - Webhose
+   ========================================================================== */
+
+.webhose-content {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.webhose-content h2 {
+    text-shadow: 0 0 10px #000000;
+    font-family: 'Chewy', cursive;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.webhose-items {
+    color: #14171a;
+    width: 100%;
+    background: #fff;
+    margin: 10px 0 10px 0;
+    border: 1px solid #969696;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.webhose-img {
+    width: 100%;
+}
+
+.webhose-meta {
+    width: 100%;
+    padding: 10px;
+}
+
+.webhose-meta > a {
+    text-decoration: none;
+    color: #14171a;
+}
+
+/* ==========================================================================
+   9.0 - OMDB
+   ========================================================================== */
+
+.omdb-img {
+    height: 425px;
+    width: 300px !important;
+}
+
+/* ==========================================================================
+   10.0 - Wikidata
+   ========================================================================== */
+
+.wikidata-container {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.wikidata-header {
+    text-shadow: 0 0 10px #000000;
+    font-family: 'Chewy', cursive !important;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.wiki-query-results {
+    list-style: none;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #969696;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.wiki-query-results > li {
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+.wiki-query-results > li > a {
+    color: #14171a;
+}
+
+/* ==========================================================================
+   10.0 - DBpedia
+   ========================================================================== */
+
+.games-container {
+    margin-top: 50px;
+    width: 100%;
+}
+
+
+.dbpedia-query-results {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    color: #fff;
+
+    /* Flex */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.dbpedia-item {
+    flex: 1 1 18% !important;
+    margin: 2px 2px 2px 2px;
+}
+
+.dbpedia-item img {
+    width: 100%;
+    margin-bottom: -3px;
+}
+
+.dbpedia-item h3 {
+    background: #303030;
+    padding: 15px;
+    margin-top: 0;
+    border: 1px solid #1c1c1c;
+
+}
+
+.dbpedia-item a {
+    color: #fff;
+    text-decoration: none;
+    background: #303030;
+
+}
+
+.dbpedia-item a:hover {
+    color: #f2a900;
+    text-decoration: underline;
+}
+
+/* ==========================================================================
+   11.0 - Sidebar
+   ========================================================================== */
+
+.sidebar-container {
+    width: 25%;
+    float: left;
+}
+
+/* ==========================================================================
+   12.0 - Info
+   ========================================================================== */
+
+.info-container {
+    width: 75%;
+    float: left;
+}
+
+.info-container h1 {
+    font-family: 'Chewy', cursive !important;
+    margin-left: 25px;
+    text-shadow: 0 0 10px #000000;
+    text-transform: uppercase;
+}
+
+.wiki-info-content {
+    padding: 5px 25px;
+    background: #fff;
+    margin-left: 25px;
+    color: #14171a;
+}
